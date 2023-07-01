@@ -1,0 +1,63 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.menu {
+    background-color: navajowhite;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    background-color: navajowhite;
+    justify-content: center;
+    max-width: 1200px;
+}
+.menu li {
+    display: inline;
+}
+.menu li a {
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 25px;
+    display: inline-block;
+    text-decoration: none;
+    transition:1s;
+    justify-content: center;
+}
+.menu li a:hover{
+    background-color: crimson;
+}
+
+.logo{
+    height: 50px;
+    width: 180px;
+
+}
+.banner{
+    display: flex;
+    height: 20rem;
+    gap: 1ren;
+}
+.banner > div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+.banner > div:hover {
+    flex: 5;
+}
+body {
+    background-color: rgb(250, 224, 154);
+}
+.icone{
+    height: 40px;
+    width: 45px;
+}
+h3{
+    justify-self: center;
+}
