@@ -1,0 +1,91 @@
+*{
+    text-decoration: none;
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(250, 231, 178);
+}
+.menu {
+    background-color: navajowhite;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    background-color: navajowhite;
+    justify-content: center;
+    max-width: 1200px;
+}
+.menu li {
+    display: inline;
+}
+.menu li a {
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 28px;
+    display: inline-block;
+    text-decoration: none;
+    transition:1s;
+    justify-content: center;
+}
+.menu li a:hover{
+    background-color: crimson;
+}
+
+.logo{
+    height: 50px;
+    width: 180px;
+
+}
+.banner{
+    height: 350px;
+    width: 1350px;
+}
+.icone{
+    height: 40px;
+    width: 45px;
+}
+.receitas{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+ background-color: aliceblue;
+margin-top: 50px;
+border-radius: 5px;
+font-weight: 200;
+}
+.receitas ol{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+ background-color: aliceblue;
+margin-top: 50px;
+border-radius: 5px;
+font-weight: 200;
+}
+li{
+    list-style: inside;
+    line-height: 30px;
+}
+h1{
+    color:orange;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+}
+h2{
+    justify-content: center;
+}
+.receitas li{
+    display: list-item;
+}
+.receitas img{
+float: right;
+width: 400px;
+height: 250px;
+border-radius: 20px;
+}
+.receitas ol li{
+    list-style-type: decimal;
+}
